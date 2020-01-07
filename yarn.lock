@@ -1025,6 +1025,11 @@ needle@^2.2.1:
     iconv-lite "^0.4.4"
     sax "^1.2.4"
 
+node-fetch@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
+  integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+
 node-notifier@^5.4.0:
   version "5.4.0"
   resolved "https://registry.yarnpkg.com/node-notifier/-/node-notifier-5.4.0.tgz#7b455fdce9f7de0c63538297354f3db468426e6a"
@@ -1613,6 +1618,13 @@ wide-align@^1.1.0:
   integrity sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==
   dependencies:
     string-width "^1.0.2 || 2"
+
+woke-dyno@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/woke-dyno/-/woke-dyno-0.0.4.tgz#3e5306ab979cbf969c397471c94877d3c73f3946"
+  integrity sha512-KyXoNUau55C1bd7ySWUvHIEVo9PLSEfN0wA8Q2Kkys0H+xP8ODiYX76hYHmVokvWLOuDz/0oSdNm+Z/Mx1GJYA==
+  dependencies:
+    node-fetch "^2.6.0"
 
 wrappy@1:
   version "1.0.2"

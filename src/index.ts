@@ -85,6 +85,8 @@ rtm.on('connected', async () => {
 
 rtm.start();
 
+const wakeDyno = require("woke-dyno");
+
 // Start a HTTP server just to make people happy:
 const port = process.env.PORT || 8080;
 http.createServer((_, res) => {
@@ -92,4 +94,5 @@ http.createServer((_, res) => {
     res.end('What is healthy?');
 }).listen(port, () => {
     console.log('HTTP server started.');
+    wakeDyno('https://trabek.herokuapp.com/').start()
 });
